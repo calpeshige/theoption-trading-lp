@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #0f172a;
+  /* Deep Dark Blue */
+  --color-secondary: #ffffff;
+  /* Pure White for clean sections */
+  --color-accent: #3b82f6;
+  /* Modern Blue (instead of Gold for cleaner look) */
+  --color-accent-glow: #60a5fa;
+  --color-text-main: #1e293b;
+  /* Dark text for light backgrounds */
+  --color-text-inv: #f8fafc;
+  /* Light text for dark backgrounds */
+  --color-muted-dark: #94a3b8;
+  --color-muted-light: #64748b;
+  --font-sans: "Noto Sans JP", sans-serif;
+}
+
+body {
+  @apply bg-secondary text-text-main font-sans antialiased;
+}
