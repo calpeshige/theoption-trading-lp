@@ -1,0 +1,4 @@
+# Large source files
+hero/
+*.mov
+node_modules/
