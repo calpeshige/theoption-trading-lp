@@ -54,7 +54,7 @@ export const SystemDemo = () => {
                     {/* Main Image */}
                     <img
                         src="/images/system-demo.jpg"
-                        alt="TheOption Trend Analyzer Demo"
+                        alt="Theoption Trading System Demo"
                         className="w-full h-auto object-cover opacity-90 group-hover:opacity-100 transition-opacity duration-500"
                     />
 

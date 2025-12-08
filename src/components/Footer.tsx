@@ -6,7 +6,7 @@ export const Footer: React.FC = () => {
             <div className="container mx-auto px-6">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-12">
                     <div>
-                        <h4 className="text-lg font-bold text-white mb-4">TheOption Trend Analyzer</h4>
+                        <h4 className="text-lg font-bold text-white mb-4">Theoption Trading System</h4>
                         <p className="text-gray-400 text-sm leading-relaxed max-w-md">
                             最先端のAI技術と多次元テクニカル分析を融合させた、<br />
                             次世代のトレーディング支援システム。
@@ -26,7 +26,7 @@ export const Footer: React.FC = () => {
 
                 <div className="border-t border-white/5 pt-8 text-center">
                     <p className="text-xs text-gray-600">
-                        &copy; {new Date().getFullYear()} TheOption Trend Analyzer. All rights reserved.
+                        &copy; {new Date().getFullYear()} Theoption Trading System. All rights reserved.
                     </p>
                 </div>
             </div>

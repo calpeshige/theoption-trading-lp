@@ -81,8 +81,8 @@ export const Features: React.FC = () => {
                     <div className="flex flex-col items-center justify-center space-y-4">
                         <Cpu className="w-12 h-12 text-accent opacity-50" />
                         <h3 className="text-xl font-bold text-white">System Architecture</h3>
-                        <p className="text-gray-200 max-w-3xl">
-                            TheOption Trend Analyzerは、Chrome拡張機能としてブラウザ内で直接動作します。<br />
+                        <p className="text-white max-w-3xl">
+                            Theoption Trading Systemは、Chrome拡張機能としてブラウザ内で直接動作します。<br />
                             外部サーバーとの通信ラグを排除し、チャート上の価格変動をダイレクトに取得・解析することで、<br />
                             他社ツールでは不可能な「完全リアルタイム」のシグナル生成を実現しています。
                         </p>
