@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <defs>
+    <linearGradient id="tGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4a5568"/>
+      <stop offset="50%" stop-color="#2d3748"/>
+      <stop offset="100%" stop-color="#1a202c"/>
+    </linearGradient>
+  </defs>
+  <!-- Stylish T with beveled edges -->
+  <path d="M3 3 L29 3 L29 9 L19.5 9 L19.5 29 L12.5 29 L12.5 9 L3 9 Z"
+        fill="url(#tGrad)"/>
+  <!-- Inner highlight -->
+  <path d="M5 5 L27 5 L27 7 L18 7 L18 27 L14 27 L14 7 L5 7 Z"
+        fill="#374151" opacity="0.5"/>
+</svg>
