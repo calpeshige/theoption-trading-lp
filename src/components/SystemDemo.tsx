@@ -12,7 +12,7 @@ export const SystemDemo = () => {
             y: 35, // % from top
             icon: Zap,
             title: "AI予測エンジン",
-            description: "過去50,000件のデータを瞬時に照合し、90%以上の確率で勝てるポイントのみを「HIGH/LOW」で表示します。"
+            description: "過去50,000件のデータを瞬時に照合し、統計的優位性のあるエントリーポイントを「HIGH/LOW」で表示します。"
         },
         {
             id: 2,
