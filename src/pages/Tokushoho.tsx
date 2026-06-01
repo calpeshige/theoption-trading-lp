@@ -40,22 +40,31 @@ export const Tokushoho = () => {
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8 border-b border-white/5 pb-8">
                             <div className="font-bold text-gray-300 md:text-right">所在地</div>
                             <div className="md:col-span-2 text-white">
-                                〒227-0062<br />
-                                神奈川県横浜市青葉区青葉台1-5-4 青葉台サンクスビル3F
+                                〒150-0021<br />
+                                東京都渋谷区恵比寿西2丁目4番8号 ウィンド恵比寿ビル8F
                             </div>
                         </div>
 
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8 border-b border-white/5 pb-8">
                             <div className="font-bold text-gray-300 md:text-right">電話番号</div>
                             <div className="md:col-span-2 text-white">
-                                お電話でのサポートは行っていません。公式LINEからお問い合わせください。<br />
-                                （ID: @266zyldw）
+                                070-8552-4407<br />
+                                <span className="text-sm text-gray-400">※ お電話でのサポートは行っておりません。サポートは公式LINEにて承ります。</span>
                             </div>
                         </div>
 
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8 border-b border-white/5 pb-8">
                             <div className="font-bold text-gray-300 md:text-right">メールアドレス</div>
                             <div className="md:col-span-2 text-white">binarysignaltoollabo@gmail.com</div>
+                        </div>
+
+                        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8 border-b border-white/5 pb-8">
+                            <div className="font-bold text-gray-300 md:text-right">サポート窓口</div>
+                            <div className="md:col-span-2 text-white">
+                                サポートは公式LINEで承ります。<br />
+                                公式LINE ID: <span className="font-mono">@266zyldw</span><br />
+                                <span className="text-sm text-gray-400">※ お電話でのサポートは行っておりません。</span>
+                            </div>
                         </div>
 
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8 border-b border-white/5 pb-8">
