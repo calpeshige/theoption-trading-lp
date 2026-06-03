@@ -40,8 +40,9 @@ export const Tokushoho = () => {
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8 border-b border-white/5 pb-8">
                             <div className="font-bold text-gray-300 md:text-right">所在地</div>
                             <div className="md:col-span-2 text-white">
-                                〒150-0021<br />
-                                東京都渋谷区恵比寿西2丁目4番8号 ウィンド恵比寿ビル8F
+                                表参道オフィス<br />
+                                〒150-0001<br />
+                                東京都渋谷区神宮前5丁目51番8号 ラ・ポルト青山 2F-7
                             </div>
                         </div>
 
