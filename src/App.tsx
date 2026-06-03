@@ -11,6 +11,7 @@ import { Philosophy } from './components/Philosophy';
 import { SystemDemo } from './components/SystemDemo';
 import { GlobalBackground } from './components/GlobalBackground';
 import { Tokushoho } from './pages/Tokushoho';
+import { Disclaimer } from './pages/Disclaimer';
 
 const LandingPage = () => (
   <>
@@ -37,6 +38,7 @@ function App() {
         <Routes>
           <Route path="/" element={<LandingPage />} />
           <Route path="/tokushoho" element={<Tokushoho />} />
+          <Route path="/disclaimer" element={<Disclaimer />} />
         </Routes>
       </div>
     </Router>

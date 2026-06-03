@@ -14,14 +14,14 @@ export const Footer: React.FC = () => {
                     </div>
                     <div>
                         <h4 className="text-lg font-bold text-white mb-4">重要事項・免責事項</h4>
-                        <ul className="space-y-2 text-xs text-gray-500 mb-6">
-                            <li>・本システムは、将来の利益を保証するものではありません。</li>
-                            <li>・投資判断は、最終的にお客様ご自身の責任において行ってください。</li>
-                            <li>・本システムを使用した結果生じた損害について、開発者は一切の責任を負いません。</li>
-                            <li>・デジタルコンテンツという商品の性質上、ご購入後の返品・返金には一切応じられません。</li>
-                            <li>・バイナリーオプション取引には高いリスクが伴います。余裕資金での運用を推奨します。</li>
-                        </ul>
-                        <div className="flex gap-4">
+                        <p className="text-xs text-gray-500 leading-relaxed mb-6 max-w-md">
+                            バイナリーオプション取引には高いリスクが伴います。本システムは将来の利益を保証するものではなく、
+                            投資判断は最終的にお客様ご自身の責任において行ってください。詳細は免責事項をご確認ください。
+                        </p>
+                        <div className="flex flex-wrap gap-x-6 gap-y-2">
+                            <Link to="/disclaimer" className="text-xs text-gray-400 hover:text-white transition-colors underline">
+                                重要事項・免責事項
+                            </Link>
                             <Link to="/tokushoho" className="text-xs text-gray-400 hover:text-white transition-colors underline">
                                 特定商取引法に基づく表記
                             </Link>
